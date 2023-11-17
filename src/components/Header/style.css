@@ -1,0 +1,60 @@
+/* style.css */
+.header {
+    background-color: #3777a2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  .card-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1px 1px;
+    display: flex;
+    align-items: center;
+  }
+
+  .logo-image {
+    max-width: 150px;
+  }
+
+  .nav {
+    flex: 2;
+  }
+
+  .menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+
+  .menu-item {
+    color: white;
+    padding: 0 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-item:hover {
+   text-decoration: none;
+  }
+
+  .menu-icon {
+    font-size: 24px;
+    vertical-align: middle;
+    margin-right: 8px; /* Adjust the spacing as needed */
+  }
+
+  .menu-text {
+    vertical-align: middle;
+  }
+
+  .nav {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    margin-top: 1%;
+  }
+  
